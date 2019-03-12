@@ -1,0 +1,10 @@
+body{
+  background-color: black;
+  box-sizing: border-box;
+  text-align: center;
+  text: white; 
+}
+section{ 
+  width: 480px; 
+  clear: both; 
+}

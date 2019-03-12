@@ -1,0 +1,28 @@
+#channel{
+  width: 480px; 
+  height: 767px;
+}
+#a{
+  height: 75px; 
+}
+#b{
+  height: 150px; 
+}
+.med{
+  height: 125px;
+}
+
+p{
+  width:240px; 
+  height: 250px; 
+  box
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+#i{
+  height: 80px;
+}
