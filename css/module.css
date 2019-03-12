@@ -1,16 +1,24 @@
 @media screen and (max-width: 767px){
 #a{
   background-color: red; 
+  padding-top: 37.5px; 
+  box-sizing: border-box;
   
 }
 #b{
   background-color: orange; 
+  padding-top: 75px; 
+  box-sizing: border-box; 
 }
 #c{
   background-color: yellow; 
 }
 #d{
   background-color:greenyellow; 
+}
+.med{
+  padding-top: 62.5px; 
+  box-sizing: border-box; 
 }
 #e{
   background-color: green;
@@ -26,21 +34,81 @@
   background-color: purple; 
 
 }
+p {
+  padding-top: 125px; 
+  box-sizing: border-box; 
+}
 #i{
   background-color: indigo; 
-
+  padding-top: 40px; 
+  box-sizing: border-box;
 }
 }
 
 @media screen and (min-width: 768px){
+
+  #a{
+    background-color: lightblue; 
+    padding-top: 50px; 
+    box-sizing: border-box;
+  }
+  #b{
+    background-color: lightcoral;
+    padding-top: 300px; 
+    box-sizing: border-box;
+  }
+  #c{ 
+    background-color: lightgoldenrodyellow;
+    float: left;
+  }
+  #d{
+    background-color: lightgreen; 
+    float: right;
+  }
+
+  .med{
+    padding-top: 100px; 
+    box-sizing: border-box;
+  }
+
+  #e{
+    background-color: lightpink;
+
+  }
+  #f{ 
+    background-color: lightcyan; 
+  }
+  #g{
+    background-color: lightgray; 
+  }
+  #h{
+    background-color: lightyellow; 
+  }
+
+  p{
+    padding-top: 125px; 
+    box-sizing: border-box;
+  }
+  #i{ 
+    background-color: lightsalmon;
+    padding-top: 75px; 
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1025px){
   #a{
     background-color: darkmagenta; 
-  
+    padding-top: 50px; 
+    box-sizing: border-box;
   }
   #b{
     background-color: darkslateblue; 
+    padding-top: 300px; 
+    box-sizing: border-box;
   }
 
+  
   #c{
     background-color: darkslategray; 
     float: left; 
@@ -49,6 +117,11 @@
     background-color: darkseagreen; 
     float: right; 
   }
+  .med{
+    padding-top: 100px; 
+    box-sizing: border-box;
+  }
+
   #e{
     background-color: darkgoldenrod; 
   }
@@ -60,13 +133,18 @@
   #g{
     background-color: darkolivegreen;
   }
-
+ 
   #h{
     background-color: darkviolet; 
   }
-
+  p{
+    padding-top: 125px;
+    box-sizing: border-box;
+  }
   #i{
     background-color: darkgreen; 
+    padding-top: 75px; 
+    box-sizing: border-box; 
   }
 
 }

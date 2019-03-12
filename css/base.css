@@ -2,7 +2,6 @@
 
 body{
   background-color: black;
-  box-sizing: border-box;
   text-align: center;
   font: white; 
 }
@@ -15,7 +14,6 @@ section{
 @media screen and (min-width: 768px){
   body{
     background-color: white; 
-    box-sizing: border-box; 
     text-align: center; 
     font: black; 
     clear: both;
