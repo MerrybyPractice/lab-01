@@ -1,11 +1,13 @@
 @media screen and (max-width: 767px){
 #a{
+  height: 75px; 
   background-color: red; 
   padding-top: 37.5px; 
   box-sizing: border-box;
   
 }
 #b{
+  height: 150px; 
   background-color: orange; 
   padding-top: 75px; 
   box-sizing: border-box; 
@@ -39,6 +41,7 @@ p {
   box-sizing: border-box; 
 }
 #i{
+  height: 80px;
   background-color: indigo; 
   padding-top: 40px; 
   box-sizing: border-box;
@@ -48,13 +51,14 @@ p {
 @media screen and (min-width: 768px){
 
   #a{
+    height: 75px;
     background-color: lightblue; 
-    padding-top: 50px; 
+    padding-top: 37.5px; 
     box-sizing: border-box;
   }
   #b{
     background-color: lightcoral;
-    padding-top: 300px; 
+    padding-top: 225px; 
     box-sizing: border-box;
   }
   #c{ 
@@ -67,7 +71,7 @@ p {
   }
 
   .med{
-    padding-top: 100px; 
+    padding-top: 75px; 
     box-sizing: border-box;
   }
 
@@ -86,18 +90,19 @@ p {
   }
 
   p{
-    padding-top: 125px; 
+    padding-top: 93.75px; 
     box-sizing: border-box;
   }
   #i{ 
     background-color: lightsalmon;
-    padding-top: 75px; 
+    padding-top: 56.25px; 
     box-sizing: border-box;
   }
 }
 
 @media screen and (min-width: 1025px){
   #a{
+    height: 100px;
     background-color: darkmagenta; 
     padding-top: 50px; 
     box-sizing: border-box;

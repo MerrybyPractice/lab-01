@@ -3,12 +3,6 @@
   width: 480px; 
   margin: auto;
 }
-#a{
-  height: 75px; 
-}
-#b{
-  height: 150px; 
-}
 .med{
   height: 125px;
 }
@@ -23,9 +17,6 @@ p{
 .right{
   float: right;
 }
-#i{
-  height: 80px;
-}
 }
 
 @media screen and (min-width: 768px){
@@ -34,28 +25,20 @@ p{
     width: 720px; 
     margin: auto;
   }
-
-  #a{ 
-    height: 75px; 
-  }
-
   #b{
     height: 450px; 
     width: 150px; 
     float: left;
   }
-
   .med{ 
     height: 150px; 
     width: 285px;
   }
-
   p{
     height: 187.5px;
     width: 142.5px;
     float: left;
   }
-
   #i{
     height: 112.5px; 
     width: 570px; 
@@ -69,10 +52,6 @@ p{
     width: 960px; 
     margin: auto;
   }
-
-  #a{
-    height: 100px; 
-  }
   #b{
     height: 600px; 
     width: 200px; 
@@ -83,18 +62,14 @@ p{
     width: 380px;
 
   }
-
   p{ 
     height: 250px; 
     width: 190px;
     float: left; 
   }
-
   #i{
     height: 150px; 
     width: 760px;
     float: right;
   }
-
-
 }
