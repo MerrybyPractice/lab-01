@@ -1,6 +1,6 @@
+@media screen and (max-width: 767px){
 #channel{
   width: 480px; 
-  height: 767px;
 }
 #a{
   height: 75px; 
@@ -15,7 +15,6 @@
 p{
   width:240px; 
   height: 250px; 
-  box
 }
 .left{
   float: left;
@@ -25,4 +24,39 @@ p{
 }
 #i{
   height: 80px;
+}
+}
+
+@media screen and (min-width: 768px){
+  #channel{
+    width: 960px; 
+  }
+
+  #a{
+    height: 100px; 
+  }
+  #b{
+    height: 600px; 
+    width: 200px; 
+    float: left;
+  }
+  .med{
+    height: 200px; 
+    width: 380px;
+
+  }
+
+  p{ 
+    height: 250px; 
+    width: 190px;
+    float: left; 
+  }
+
+  #i{
+    height: 150px; 
+    width: 760px;
+    float: right;
+  }
+
+
 }

@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px){
 #a{
   background-color: red; 
   
@@ -27,5 +28,45 @@
 }
 #i{
   background-color: indigo; 
+
+}
+}
+
+@media screen and (min-width: 768px){
+  #a{
+    background-color: darkmagenta; 
+  
+  }
+  #b{
+    background-color: darkslateblue; 
+  }
+
+  #c{
+    background-color: darkslategray; 
+    float: left; 
+  }
+  #d{
+    background-color: darkseagreen; 
+    float: right; 
+  }
+  #e{
+    background-color: darkgoldenrod; 
+  }
+
+  #f{
+    background-color: darkcyan; 
+  }
+
+  #g{
+    background-color: darkolivegreen;
+  }
+
+  #h{
+    background-color: darkviolet; 
+  }
+
+  #i{
+    background-color: darkgreen; 
+  }
 
 }
