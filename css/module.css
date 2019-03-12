@@ -1,0 +1,155 @@
+@media screen and (max-width: 767px){
+#a{
+  height: 75px; 
+  background-color: red; 
+  padding-top: 37.5px; 
+  box-sizing: border-box;
+  
+}
+#b{
+  height: 150px; 
+  background-color: orange; 
+  padding-top: 75px; 
+  box-sizing: border-box; 
+}
+#c{
+  background-color: yellow; 
+}
+#d{
+  background-color:greenyellow; 
+}
+.med{
+  padding-top: 62.5px; 
+  box-sizing: border-box; 
+}
+#e{
+  background-color: green;
+}
+#f{
+  background-color: blue; 
+
+}
+#g{
+  background-color: blueviolet
+}
+#h{
+  background-color: purple; 
+
+}
+p {
+  padding-top: 125px; 
+  box-sizing: border-box; 
+}
+#i{
+  height: 80px;
+  background-color: indigo; 
+  padding-top: 40px; 
+  box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 768px){
+
+  #a{
+    height: 75px;
+    background-color: lightblue; 
+    padding-top: 37.5px; 
+    box-sizing: border-box;
+  }
+  #b{
+    background-color: lightcoral;
+    padding-top: 225px; 
+    box-sizing: border-box;
+  }
+  #c{ 
+    background-color: lightgoldenrodyellow;
+    float: left;
+  }
+  #d{
+    background-color: lightgreen; 
+    float: right;
+  }
+
+  .med{
+    padding-top: 75px; 
+    box-sizing: border-box;
+  }
+
+  #e{
+    background-color: lightpink;
+
+  }
+  #f{ 
+    background-color: lightcyan; 
+  }
+  #g{
+    background-color: lightgray; 
+  }
+  #h{
+    background-color: lightyellow; 
+  }
+
+  p{
+    padding-top: 93.75px; 
+    box-sizing: border-box;
+  }
+  #i{ 
+    background-color: lightsalmon;
+    padding-top: 56.25px; 
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  #a{
+    height: 100px;
+    background-color: darkmagenta; 
+    padding-top: 50px; 
+    box-sizing: border-box;
+  }
+  #b{
+    background-color: darkslateblue; 
+    padding-top: 300px; 
+    box-sizing: border-box;
+  }
+
+  
+  #c{
+    background-color: darkslategray; 
+    float: left; 
+  }
+  #d{
+    background-color: darkseagreen; 
+    float: right; 
+  }
+  .med{
+    padding-top: 100px; 
+    box-sizing: border-box;
+  }
+
+  #e{
+    background-color: darkgoldenrod; 
+  }
+
+  #f{
+    background-color: darkcyan; 
+  }
+
+  #g{
+    background-color: darkolivegreen;
+  }
+ 
+  #h{
+    background-color: darkviolet; 
+  }
+  p{
+    padding-top: 125px;
+    box-sizing: border-box;
+  }
+  #i{
+    background-color: darkgreen; 
+    padding-top: 75px; 
+    box-sizing: border-box; 
+  }
+
+}
