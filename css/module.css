@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px){
 #a{
-  height: 75px; 
+  grid-column-start: row 1; 
+  grid-column-end: row 2; 
   background-color: red; 
   padding-top: 37.5px; 
   box-sizing: border-box;
@@ -51,7 +52,8 @@ p {
 @media screen and (min-width: 768px){
 
   #a{
-    height: 75px;
+    grid-column-start: row 1; 
+    grid-column-end: row 2; 
     background-color: lightblue; 
     padding-top: 37.5px; 
     box-sizing: border-box;
@@ -102,7 +104,8 @@ p {
 
 @media screen and (min-width: 1025px){
   #a{
-    height: 100px;
+    grid-column-start: row 1; 
+    grid-column-end: row 2; 
     background-color: darkmagenta; 
     padding-top: 50px; 
     box-sizing: border-box;
