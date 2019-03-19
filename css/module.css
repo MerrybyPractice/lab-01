@@ -1,26 +1,49 @@
 @media screen and (max-width: 767px){
 #a{
-  height: 75px; 
+  grid-row-start: rowone; 
+  grid-row-end: rowtwo; 
+  align-self: center;
   background-color: red; 
   padding-top: 37.5px; 
   box-sizing: border-box;
   
 }
 #b{
-  height: 150px; 
+  grid-row-start: rowtwo; 
+  grid-row-end: rowfour;
   background-color: orange; 
   padding-top: 75px; 
   box-sizing: border-box; 
 }
 #c{
+  grid-row-start: rowfour; 
+  grid-row-end: rowsix;
   background-color: yellow; 
 }
 #d{
+  grid-row-start:rowsix; 
+  grid-row-end: roweight;
   background-color:greenyellow; 
 }
 .med{
-  padding-top: 62.5px; 
+  padding-top: 9vw; 
   box-sizing: border-box; 
+}
+.left{
+  grid-column-start: columnone;
+  grid-column-end: columnthree;
+}
+.right{
+  grid-column-start: columnthree; 
+  grid-column-end: endcolumn;
+}
+#e, #f{
+  grid-row-start: roweight; 
+  grid-row-end: rowtwelve;
+}
+#g, #h{
+  grid-row-start: rowtwelve; 
+  grid-row-end: rowsixteen; 
 }
 #e{
   background-color: green;
@@ -37,7 +60,7 @@
 
 }
 p {
-  padding-top: 125px; 
+  padding-top: 17vw; 
   box-sizing: border-box; 
 }
 #i{
@@ -45,35 +68,46 @@ p {
   background-color: indigo; 
   padding-top: 40px; 
   box-sizing: border-box;
+  grid-row-start: rowsixteen; 
+  grid-row-end: rowend
 }
 }
 
 @media screen and (min-width: 768px){
 
   #a{
-    height: 75px;
+    grid-row-start: rowone; 
+    grid-row-end: rowtwo; 
     background-color: lightblue; 
     padding-top: 37.5px; 
     box-sizing: border-box;
   }
   #b{
+    grid-column-start: column start; 
+    grid-column-end: column2;
+    grid-row-start: row2;
+    grid-row-end: row end;
     background-color: lightcoral;
-    padding-top: 225px; 
+    padding-top: 30%; 
     box-sizing: border-box;
   }
   #c{ 
     background-color: lightgoldenrodyellow;
-    float: left;
+    grid-row-end: row 2;
+    grid-row-end: row 3;
+    grid-column-start: column2; 
+    grid-column-end: column5; 
+ 
   }
   #d{
     background-color: lightgreen; 
-    float: right;
+ 
+    grid-row-start: row2;
+    grid-row-end: row3;
+    grid-column-start: column5; 
+    grid-column-end: end column; 
   }
 
-  .med{
-    padding-top: 75px; 
-    box-sizing: border-box;
-  }
 
   #e{
     background-color: lightpink;
@@ -102,7 +136,8 @@ p {
 
 @media screen and (min-width: 1025px){
   #a{
-    height: 100px;
+    grid-column-start: row 1; 
+    grid-column-end: row 2; 
     background-color: darkmagenta; 
     padding-top: 50px; 
     box-sizing: border-box;

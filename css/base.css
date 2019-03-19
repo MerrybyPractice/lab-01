@@ -4,9 +4,12 @@ body{
   background-color: black;
   text-align: center;
   font: white; 
+  display: grid; 
+  grid-template-rows: [rowone] 10vw [rowtwo] 10vw [rowthree]10vw [rowfour] 10vw [rowfive] 10vw [rowsix] 10vw [rowseven] 10vw [roweight] 10vw [rownine] 10vw [rowten] 10vw [roweleven] 10vw [rowtwelve] 10vw [rowthirteen] 10vw [rowfourteen] 10vw [rowfifteen]10vw [rowsixteen] 10vw [rowseventeen] 10vw  [rowend]; 
+  grid-template-columns: [columnone] 10vw [columntwo] 10vw[columnthree] 10vw [columnfour] 10vw [columnfive] 10vw [columnsix] 10vw [endcolumn];
 }
 section{ 
-  width: 480px; 
+  /* width: 480px;  */
   clear: both; 
 }
 }
@@ -15,9 +18,11 @@ section{
   body{
     background-color: gray; 
     text-align: center;
+    grid-template-rows: [row start] 20% [row2] 20% [row3] 20%[row4] 20% [row5] 20% [row end]; 
+    grid-template-columns: [column start] 15% [column2] 15% [column3] 15% [column4] 15% [column5] 15% [column6] 15% [end column];
   }
 
-}
+};
 
 @media screen and (min-width: 1025px){
   body{
@@ -25,5 +30,7 @@ section{
     text-align: center; 
     font: black; 
     clear: both;
+    grid-template-rows: [row one] 20% [row two] 20% [row three]20%[row four] 20% [row five] 20% [row end]; 
+    grid-template-columns: [column one] 15% [column two] 15% [column three] 15% [column four] 15% [column five] 15% [column six] 15% [end column];
   }
 }
